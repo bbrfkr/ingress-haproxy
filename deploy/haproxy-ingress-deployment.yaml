@@ -152,7 +152,7 @@ spec:
     spec:
       containers:
       - name: haproxy-ingress
-        image: quay.io/jcmoraisjr/haproxy-ingress
+        image: docker.io/bbrfkr0129/haproxy-ingress
         args:
         - --default-backend-service=kube-system/ingress-default-backend
         - --default-ssl-certificate=kube-system/tls-secret
